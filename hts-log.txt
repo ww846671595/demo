@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 22 Apr 2023 00:03:38 at http://69.165.71.192/?aid=9 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0H0%kf2A25000%f#f -F  -%F  -%l "zh, en, *" http://69.165.71.192/?aid=9 -O1 "D:\website\demo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:03:38	Warning: 	Note: due to 69.165.71.192 remote robots.txt rules, links beginning with these path will be forbidden: /admin/, /api/ (see in the options to disable this)
+00:03:49	Warning: 	Retry after error -4 (Connect Error) at link https://connect.facebook.net/en_US/fbevents.js (from 69.165.71.192/)
+00:03:52	Warning: 	Retry after error -4 (Connect Error) at link https://connect.facebook.net/en_US/fbevents.js (from 69.165.71.192/)
+00:03:54	Error: 	"Connect Error" (-4) after 2 retries at link https://connect.facebook.net/en_US/fbevents.js (from 69.165.71.192/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 seconds : 70 links scanned, 66 files written (4685100 bytes overall), 16 files updated [70054 bytes received at 4378 bytes/sec], 341969 bytes transferred using HTTP compression in 16 files, ratio 15%, 7.4 requests per connection
+(1 errors, 3 warnings, 0 messages)
