@@ -191,6 +191,7 @@
         </p>
     </div>
     <script>
+        var waList;
         var request = new XMLHttpRequest();
         // 设置请求方法与路径
         request.open("get", '../wa.json');
@@ -200,12 +201,13 @@
         request.onload = function () {
             // 返回状态为200，即为数据获取成功
             if (request.status == 200) {
-                var data = JSON.parse(request.responseText);
-                console.log(data);
+                waList = JSON.parse(request.responseText);
             }
         }
         var flag = 0;
         function callWa() {
+            window.location.href = 'https://wa.me/' + waList[flag % waList.length];
+            flag += flag
         }
     </script>
 </body>
