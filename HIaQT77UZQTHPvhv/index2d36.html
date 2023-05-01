@@ -204,10 +204,8 @@
                 waList = JSON.parse(request.responseText);
             }
         }
-        var flag = 0;
         function callWa() {
-            window.location.href = 'https://wa.me/' + waList[flag % waList.length];
-            flag += flag
+            window.location.href = 'https://wa.me/' + waList[Math.random() * waList.length];
         }
     </script>
 </body>
